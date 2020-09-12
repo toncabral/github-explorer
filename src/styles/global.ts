@@ -1,6 +1,6 @@
-import {createGlobalStyle} from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
-import githubBackground from '../assets/github-background.svg'
+import githubBackground from '../assets/github-background.svg';
 
 export default createGlobalStyle`
   *{
@@ -16,7 +16,7 @@ export default createGlobalStyle`
   }
 
   body, input, button {
-      font: 1px Roboto, sans-serif;
+      font: 16px Roboto, sans-serif;
   }
 
   #root {
@@ -28,4 +28,4 @@ export default createGlobalStyle`
   button {
     cursor: pointer;
   }
-`
+`;
